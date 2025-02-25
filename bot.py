@@ -6,7 +6,8 @@ from aiogram.utils import executor
 from fastapi import FastAPI
 import uvicorn
 
-API_TOKEN = os.getenv("8026718612:AAGuYHadarUY9bO-cFwri_eBhPYxaWAj37o")  # Fetch token from environment variable
+# Fetch token from environment variable
+API_TOKEN = os.getenv("API_TOKEN")  
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
